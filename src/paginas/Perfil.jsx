@@ -18,7 +18,6 @@ const perfilSchema = z.object({
       .max(10, 'Máximo de 10 caracteres!'),
 
     senha: z.string()
-      .min(6, 'Minimo de 6 caracteres!')
       .max(6, 'Máximo de 6 caracteres atingido!')
 })
 
@@ -51,9 +50,9 @@ export function Perfil(){
             placeholder='Nome' 
             className={estilos.campo}
             />
-
             {erros.nome && (
-                <p className={estilos.mensagem}>{erros.nome.message}</p>
+                <p className={estilos.mensagem}>
+                {erros.nome.message}</p>
             )}
 
             <input 
@@ -61,9 +60,9 @@ export function Perfil(){
             placeholder='E-mail' 
             className={estilos.campo}
             />
-
             {erros.email && (
-                <p className={estilos.mensagem}>{erros.email.message}</p>
+                <p className={estilos.mensagem}>
+                {erros.email.message}</p>
             )}
 
             <input 
@@ -71,9 +70,9 @@ export function Perfil(){
             placeholder='Usuário' 
             className={estilos.campo}
             />
-
             {erros.usuario && (
-                <p className={estilos.mensagem}>{erros.usuario.message}</p>
+                <p className={estilos.mensagem}>
+                {erros.usuario.message}</p>
             )}
 
             <input 
@@ -81,9 +80,9 @@ export function Perfil(){
             placeholder='Senha' 
             className={estilos.campo}
             />
-
             {erros.senha && (
-                <p className={estilos.mensagem}>{erros.senha.message}</p>
+                <p className={estilos.mensagem}>
+                {erros.senha.message}</p>
             )}
 
             <button className={estilos.botao}

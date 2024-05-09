@@ -1,10 +1,16 @@
 import { useState } from 'react'
 import estilos from './login.module.css'
+import { Navigate, useNavigate } from 'react-router-dom'
+
 
 export function Login(){
 
     const [usuario, setUsuario] = useState('')
     const [senha, setSenha] = useState('')
+
+    const navigate = useNavigate()
+
+
 
     function obterDadosForm(e){
 
@@ -12,6 +18,8 @@ export function Login(){
 
         console.log(`Usuario: ${usuario}`)
         console.log(`Senha: ${senha}`)
+
+        Navigate('inicial')
     }
 
     return(

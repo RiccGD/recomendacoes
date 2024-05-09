@@ -1,10 +1,13 @@
 import './global.css'
-import {Inicial} from './paginas/Inicial'
-import {Login} from './paginas/Login'
-import { Perfil } from './paginas/Perfil'
+import {BrowserRouter} from 'react-router-dom'
+import {Rotas} from './rotas/Rotas'
+import {Perfil} from './paginas/Perfil'
+
 
 export function App() {
   return (
-    <Perfil />
+    <BrowserRouter>
+     <Rotas />
+    </BrowserRouter>
   )
 }
