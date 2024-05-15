@@ -7,7 +7,7 @@
     grid-template-rows: 100px 1fr;
     grid-template-areas: 
         'cabecalho cabecalho'
-        'lateral conteudo';
+        'lateral Filmes';
 }
 
 header {
@@ -19,6 +19,6 @@ aside {
 }
 
 main {
-    grid-area: conteudo;
+    grid-area: Filmes;
 }
 

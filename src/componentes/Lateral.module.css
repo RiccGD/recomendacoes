@@ -48,6 +48,7 @@
     border: 1px solid var(--roxo-escuro);
     background-color: transparent;
     color: var(--roxo-escuro);
+    margin-top: 8px;
     transition: color 0.1s, background-color 0.1s;
 }
 
