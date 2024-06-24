@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     padding: 25px;
-    background-color: var(--cinza-claro);
+    background: var(--cinza-escuro);
 }
 
 .campo{
@@ -19,8 +19,8 @@
 }
 
 .botao{
-    background-color: var(--roxo-escuro);
-    color: var(--cinza-claro);
+    background: var(--roxo-escuro);
+    color: var(--cinza-escuro);
     padding: 10px;
     border-radius: 6px;
 }

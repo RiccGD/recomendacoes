@@ -1,5 +1,5 @@
 .conteiner{
-    background-color: var(--roxo-escuro);
+    background: var(--roxo-escuro);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,6 +8,6 @@
 
 .conteiner p {
     font-size: 2.5rem;
-    color: var(--cinza-claro);
+    color: var(--cinza-escuro);
     margin-left: 10px;
 }

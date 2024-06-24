@@ -7,7 +7,7 @@
 .borda{
     width: 40%;
     height: 50vh;
-    background-color: aquamarine;
+    background: aquamarine;
     border-radius: 15px;
     display: flex;
     justify-content: center;

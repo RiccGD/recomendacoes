@@ -1,5 +1,5 @@
 .conteiner{
-    background-color: var(--cinza-claro);
+    background: var(--cinza-escuro);
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;

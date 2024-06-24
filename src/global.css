@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: var(--roxo-escuro);
+    background: var(--roxo-escuro);
 }
 
 body, input, textarea, button {

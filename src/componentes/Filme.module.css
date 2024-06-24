@@ -15,14 +15,14 @@
 }
 
 .card:hover .conteiner img {
-    box-shadow: 0px 0px 10px var(--cinza-claro);
+    box-shadow: 0px 0px 10px var(--cinza-escuro);
 }
 
 .titulo {
     margin: 0px auto;
     padding: 10px 0px;
     width: 250px;
-    color: var(--cinza-claro);
+    color: var(--cinza-escuro);
     text-align: center;
 }
 
@@ -34,7 +34,7 @@
     margin: 0 auto;
     padding: 10px 0px;
     width: 250px;
-    color: var(--cinza-claro);
+    color: var(--cinza-escuro);
     text-align: justify;
     font-size: 14px;
 }
@@ -45,7 +45,7 @@
     margin: 0px 10px;
     padding: 10px 0px;
     width: 250px;
-    color: var(--cinza-claro);
+    color: var(--cinza-escuro);
     text-align: left;
     font-size: 14px;
     line-height: 14px;

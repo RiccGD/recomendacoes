@@ -5,7 +5,7 @@
     min-height: 250px;
     padding: 10px;
     margin: 10px 5px;
-    background-color: var(--roxo-escuro);
+    background: var(--roxo-escuro);
     border-radius: 20px;
     box-shadow: 2px 2px 2px var(--roxo-claro);
     transition: transform .3s;
@@ -13,6 +13,6 @@
 
 .conteiner:hover {
     transform: scale(1.025);
-    box-shadow: 0px 0px 10px var(--cinza-claro);
+    box-shadow: 0px 0px 10px var(--cinza-escuro);
 }
 
